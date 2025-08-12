@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Mont';
-    src: url('../../fonts/Mont-HeavyDEMO.otf') format('opentype');
+    src: url('Mont-HeavyDEMO.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Creato';
-    src: url('../../fonts/CreatoDisplay-Regular.otf') format('opentype');
+    src: url('CreatoDisplay-Regular.otf') format('opentype');
 }
 
 @font-face {
