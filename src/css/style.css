@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../../fonts/Mont-HeavyDEMO.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Creato';
+    src: url('../../fonts/CreatoDisplay-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url('../../fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Noto';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    padding-left: 2em;
+}
+
+header {
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#title-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.2em;
+    margin-right: 2em;
+}
+
+#main-title {
+    font-family: 'Mont';
+    font-size: 4em;
+    margin: 0;
+
+}
+
+#sub-title {
+    font-family: 'Mont';
+    font-size: 1.4em;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#tab a {
+    color: #ffffff;
+}
+
+nav a {
+    
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 20em; /* Adjust width as needed for spacing */
+    margin: 0 auto; /* Center the nav bar */
+}
+
+nav a:hover {
+    background: #ccaa00;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+ul a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
